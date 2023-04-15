@@ -584,18 +584,24 @@
             //INICI CHAT GPT
             // Disable zooming via Ctrl+Mousewheel and Ctrl+-/+
             function disableZoom(e) {
-                if ((e.ctrlKey === true || e.metaKey === true) && (e.key === '+' || e.key === '-' || e.key === '0')) {e.preventDefault();}
+                if ((e.ctrlKey === true || e.metaKey === true) && (e.key === '+' || e.key === '-' || e.key === '0')) {
+                    e.preventDefault();
+                }
             }
 
             // Disable zooming via Ctrl++ and Ctrl+-
             function disableZoomOnWheel(e) {
-                if (e.ctrlKey === true || e.metaKey === true) {e.preventDefault();}
+                if (e.ctrlKey === true || e.metaKey === true) {
+                    e.preventDefault();
+                    // Set the zoom level to 75%
+                    document.body.style.zoom = "50%";
+                }
             }
-
 
             // Add event listeners to the document
             document.addEventListener('keydown', disableZoom);
             document.addEventListener('wheel', disableZoomOnWheel, { passive: false });
+
 
             
             
