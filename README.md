@@ -6,4 +6,4 @@ you can see the live site at [https://blackcub3s.github.io/appTEA/](https://blac
 
 # USE CASE EXAMPLE
 
-TODO
+

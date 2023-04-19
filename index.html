@@ -145,7 +145,7 @@
     <body>
         <div class = "contenidorInfoSuperior">
             <div class="usuari">
-                <p>Menganito</p>
+                <p id = "contador"></p>
             </div>
             <div id = "titol">
                 <p>AppTEA</p>
@@ -226,9 +226,31 @@
         <script src="funcionsauxiliars.js" type="text/javascript"></script>
         <script>
             
+            function temporitzador() {
+                //FUNCIO FETA AMB XAT GPT3.5. Funcionava malament fent constantment la diferencia Date() - Temps actual.
+                //HO HE CANVIAT SIMPLEMENT canviant elapsedTime.setSeconds(elapsedTime.getSeconds() + 1), de manera que a la suma
+                //no estigui constantment fent una diferència que pot donar que durant un segon no es canvii el temps que l'usuari veu
+                let elapsedTime = new Date(); // Get the current time
+                let contador = document.getElementById("contador"); // Get the <p> element
+                
+                //cada segon executo la funció 
+                setInterval(function incrementaUnSegon() {
+                    elapsedTime.setSeconds(elapsedTime.getSeconds() + 1); // CONSTRUIM EL TEMPS A PARTIR DE SUMES CONSECUTIVES D'UN SEGON
+                    let hours = Math.floor((elapsedTime / (1000 * 60 * 60)) % 24); // Calculate hours
+                    let minutes = Math.floor((elapsedTime / (1000 * 60)) % 60); // Calculate minutes
+                    let seconds = Math.floor((elapsedTime / 1000) % 60); // Calculate seconds
+                
+                    // Format the timer display as h:mm:ss
+                    let timer = hours.toString().padStart(2, '0') + ":" +
+                                minutes.toString().padStart(2, '0') + ":" +
+                                seconds.toString().padStart(2, '0');
+                            
+                    contador.innerText = timer; // Update the <p> element with the timer value
+              }, 1000); // Update the timer every second
+            }
 
 
-
+            temporitzador();
 
             //LES FILES QUE TINDRÀ LA MATRIU (COMPTE, QUE HA DE QUADRAR AMB LE NOMBRE DE DIVS QUE HI HA A DALT, DINS DEL DIV de ID="matriu")
             const nreFiles = 4;
