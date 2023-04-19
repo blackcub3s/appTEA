@@ -8,3 +8,4 @@ You can see the live site at [https://blackcub3s.github.io/appTEA/](https://blac
 
 Down below you can see a time-lapse video of the application in operation:
 
+![timeLapse application](./images/timeLapse-appTEA.gif)
