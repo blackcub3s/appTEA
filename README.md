@@ -5,7 +5,7 @@ Aquesta és una aplicació web que he creat fent servir Javascript, HTML i CSS p
 
 Si voleu, podeu considerar fer una donació per donar suport a la meva feina com a desenvolupador:
 
-[![Fes una donació](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s)
 
 D'ésser així em veuré motivat a seguir fent més aplicacions com aquesta i/o a millorar-la fent servir un hosting de pagament que permeti més característiques.
 
@@ -16,7 +16,7 @@ This is a single web application I created using pure Javascript, HTML and CSS i
 
 If you are considering making a donation to support this project, please feel free to do so. Your contribution will motivate me to dedicate more time to enhancing this application and developing others that will have a positive impact on the educational community.
 
-[![Fes una donació](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s)
 
 You can see the live site at [https://blackcub3s.github.io/appTEA/](https://blackcub3s.github.io/appTEA/).
 
