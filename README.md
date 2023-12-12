@@ -1,6 +1,6 @@
 # INTRODUCCIÓ / INTRODUCTION
 
-## Catalan
+## Català
 Aquesta és una aplicació web que he creat fent servir Javascript, HTML i CSS per tal d'implementar en una aplicació web d'una sola pàgina d'un exercici popular per a estudiants amb Trastorns de l'Espectre Autista (TEA) per tal d'aprendre aritmètica bàsica. L'he creat amb la finalitat d'automatitzar un exercici que feia un dels meus antics alumnes quan he treballat com a Psicòleg en centres d'ensenyamen depenents de la generalitat de catalunya.
 
 Si voleu, podeu considerar fer una donació per donar suport a la meva feina com a desenvolupador:
