@@ -5,7 +5,7 @@ Aquesta és una aplicació web que he creat fent servir Javascript, HTML i CSS p
 
 Si voleu considerar fer una donació podeu fer-la a continuació: 
 
-[![Fes una donació](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s).
+[![Fes una donació](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s)
 
 Em farà dedicar més temps a millorar aquesta aplicació o d'altres que tindran un retorn positiu en la comunitat educativa:
 
