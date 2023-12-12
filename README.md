@@ -3,7 +3,10 @@
 ## Catalan
 Aquesta és una aplicació web que he creat fent servir Javascript, HTML i CSS per tal d'implementar en una aplicació web d'una sola pàgina d'un exercici popular per a estudiants amb Trastorns de l'Espectre Autista (TEA) per tal d'aprendre aritmètica bàsica. L'he creat amb la finalitat d'automatitzar un exercici que feia un dels meus antics alumnes quan he treballat com a Psicòleg en centres d'ensenyamen depenents de la generalitat de catalunya.
 
-Si voleu considerar fer una donació podeu fer-la a continuació: [![Fes una donació](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s).
+Si voleu considerar fer una donació podeu fer-la a continuació: 
+
+[![Fes una donació](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/blackcub3s).
+
 Em farà dedicar més temps a millorar aquesta aplicació o d'altres que tindran un retorn positiu en la comunitat educativa:
 
 Podeu veure el lloc en viu a [https://blackcub3s.github.io/appTEA/](https://blackcub3s.github.io/appTEA/).
